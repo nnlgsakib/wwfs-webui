@@ -7,7 +7,7 @@ import (
 	"net/http"
 )
 
-//go:embed build/*
+//go:embed build/**
 var embeddedFiles embed.FS
 
 // GetHandler returns an http.Handler to serve the embedded frontend build
