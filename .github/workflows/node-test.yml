@@ -40,7 +40,7 @@ jobs:
     - uses: actions/checkout@v4.1.2
 
     - name: Use Node.js ${{ inputs.gh-node-version }}
-      uses: actions/setup-node@v4
+      uses: actions/setup-node@v5
       with:
         node-version: ${{ inputs.gh-node-version }}
         cache: 'npm'
