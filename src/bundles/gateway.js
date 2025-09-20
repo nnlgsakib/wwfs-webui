@@ -1,8 +1,8 @@
 import { readSetting, writeSetting } from './local-storage.js'
 
 // TODO: switch to dweb.link when https://github.com/ipfs/kubo/issues/7318
-export const DEFAULT_PATH_GATEWAY = 'https://ipfs.io'
-export const DEFAULT_SUBDOMAIN_GATEWAY = 'https://dweb.link'
+export const DEFAULT_PATH_GATEWAY = 'http://localhost:8080'
+export const DEFAULT_SUBDOMAIN_GATEWAY = 'http://localhost:8080'
 export const DEFAULT_IPFS_CHECK_URL = 'https://check.ipfs.network'
 // Test URLs that bypass validation for e2e tests
 export const TEST_PATH_GATEWAY = 'https://e2e-test-path-gateway.test'
