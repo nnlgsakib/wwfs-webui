@@ -22,7 +22,7 @@ jobs:
         # --minimum-perc 75: only pulls files that are at least 75% translated
         # Empty strings will fallback to English at runtime via i18next
         ./tx -t ${{ secrets.TX_TOKEN }} pull -a -f --mode onlytranslated --minimum-perc 75
-    - uses: stefanzweifel/git-auto-commit-action@8621497c8c39c72f3e2a999a26b4ca1b5058a842
+    - uses: stefanzweifel/git-auto-commit-action@778341af668090896ca464160c2def5d1d1a3eb0
       with:
         # Optional. Commit message for the created commit.
         # Defaults to "Apply automatic changes"
