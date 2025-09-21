@@ -22,7 +22,7 @@
     "translationProjectIntro": "Add or improve translations and make WWFS better for everyone!",
     "translationProjectLink": "Join the WWFS Translation Project"
   },
-  "apiDescription": "<0>If your node is configured with a <1>custom Kubo RPC API address</1>, including a port other than the default 5001, enter it here.</0>",
+  "apiDescription": "<0>If your node is configured with a <1>custom WWFS RPC API address</1>, including a port other than the default 5001, enter it here.</0>",
   "publicSubdomainGatewayDescription": "<0>Select a default <1>Subdomain Gateway</1> for generating shareable links.</0>",
   "publicPathGatewayDescription": "<0>Select a fallback <1>Path Gateway</1> for generating shareable links for CIDs that exceed the 63-character DNS limit.</0>",
   "retrievalDiagnosticService": {
@@ -133,12 +133,12 @@
   "tour": {
     "step1": {
       "title": "Settings page",
-      "paragraph1": "Here you can change the settings of your Web UI and Kubo node.",
+      "paragraph1": "Here you can change the settings of your Web UI and WWFS node.",
       "paragraph2": "If you're running WWFS Desktop you'll have some specific settings for it too."
     },
     "step2": {
-      "title": "Custom Kubo RPC API address",
-      "paragraph1": "If you've configured your Kubo-compatible WWFS node with a custom RPC API address, you can update your config file right here instead of editing the JSON by hand."
+      "title": "Custom WWFS RPC API address",
+      "paragraph1": "If you've configured your WWFS-compatible WWFS node with a custom RPC API address, you can update your config file right here instead of editing the JSON by hand."
     },
     "step3": {
       "title": "Pinning services",

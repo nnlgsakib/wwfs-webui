@@ -59,7 +59,7 @@ export const SettingsPage = ({
         <div className='lh-copy charcoal'>
           <Title>{t('app:terms.apiAddress')}</Title>
           <Trans i18nKey='apiDescription' t={t}>
-            <p>If your node is configured with a <a className='link blue' href='https://github.com/ipfs/kubo/blob/master/docs/config.md#addresses' target='_blank' rel='noopener noreferrer'>custom Kubo RPC API address</a>, including a port other than the default 5001, enter it here.</p>
+            <p>If your node is configured with a custom WWFS RPC API address, including a port other than the default 5001, enter it here.</p>
           </Trans>
           <ApiAddressForm/>
         </div>
@@ -69,13 +69,13 @@ export const SettingsPage = ({
       <div className='lh-copy charcoal'>
         <Title>{t('app:terms.publicGateway')}</Title>
           <Trans i18nKey='publicSubdomainGatewayDescription' t={t}>
-            <p>Select a default <a className='link blue' href='https://docs.ipfs.tech/concepts/ipfs-gateway/#subdomain' target='_blank' rel='noopener noreferrer'>Subdomain Gateway</a> for generating shareable links.</p>
+            <p>Select a default Subdomain Gateway  for generating shareable links.</p>
           </Trans>
           <PublicSubdomainGatewayForm/>
         </div>
         <div className='lh-copy charcoal'>
           <Trans i18nKey='publicPathGatewayDescription' t={t}>
-            <p>Select a fallback <a className='link blue' href='https://docs.ipfs.tech/concepts/ipfs-gateway/#path' target='_blank' rel='noopener noreferrer'>Path Gateway</a> for generating shareable links for CIDs that exceed the 63-character DNS limit.</p>
+            <p>Select a fallback Path Gateway for generating shareable links for CIDs that exceed the 63-character DNS limit.</p>
           </Trans>
           <PublicGatewayForm/>
         </div>
